@@ -1,2 +1,2 @@
-<button ngClass= "is-liked" (click)="clickedButton()" type="button">Like!</button>
-<span>Image is like == {{isLiked}}</span>
+<button [ngClass] = "setClass()" (click)="clickedButton()" type="button">Like!</button>
+<span>Image is liked: {{likeImage}}</span>
