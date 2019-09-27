@@ -12,4 +12,9 @@ export class MyButtonComponent implements OnInit {
   ngOnInit() {
   }
 
+  clickedButton(){
+    var likeImage = false
+    console.log(likeImage)
+  }
+
 }

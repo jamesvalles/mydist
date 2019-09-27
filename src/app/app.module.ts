@@ -19,4 +19,6 @@ import { MyButtonComponent } from './my-button/my-button.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+  
+}
