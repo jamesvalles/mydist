@@ -9,6 +9,7 @@ import { MyServiceService } from '../my-service.service';
 export class MyButtonComponent implements OnInit {
 
   likeImage: boolean = false;
+  counter: number = 0; 
 
   constructor(private _myservice : MyServiceService) { }
 
@@ -19,6 +20,9 @@ export class MyButtonComponent implements OnInit {
     console.log(this.likeImage);
     console.log(this._myservice.likeImage(this.likeImage));
     this.likeImage = this._myservice.likeImage(this.likeImage);
+    if(this.likeImage){
+    this.counter = this.counter + 1; 
+    }
     return this.likeImage;
   }
 
