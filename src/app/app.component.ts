@@ -1,3 +1,4 @@
+//This is the heart of the component 
 //Import components here 
 import { Component } from '@angular/core';
 
@@ -8,7 +9,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 
-//Component logic 
+//Component logic  
 export class AppComponent {
   title = 'mydist';
 }
