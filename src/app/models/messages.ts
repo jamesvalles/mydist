@@ -1,16 +1,16 @@
 import { Message } from './message';
 
 export class Messages {
-     messageArray : Message[];
-
+     messageArray: Message[] = [];
      constructor(){
      }
 
      addMessage(incomingMessage : Message){
+         console.log("Adding message to array.")
         this.messageArray.push(incomingMessage);
      }
 
-     getMessages(){
+     getMessageArray(){
          return this.messageArray
      }
 }
