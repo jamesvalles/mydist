@@ -1,14 +1,14 @@
 <!-- This is the template for the app component -->
 
-<div>
-    <app-my-image></app-my-image>
-<app-my-button></app-my-button>
+<div class = "main-container"> 
+    <app-my-image class = "app-my-image"></app-my-image>
+<app-my-button class = "app-my-button"></app-my-button>
 </div>
 
-<div>
+<div class= "message-container">
         <ul>
                 <li *ngFor="let hero of messageArray">
-                        {{ hero.timeStamp }} {{ hero.messageText }}
+                       <span class="message-list"> {{ hero.timeStamp }} {{ hero.messageText }}</span>
                 </li>
               </ul>
 </div>
