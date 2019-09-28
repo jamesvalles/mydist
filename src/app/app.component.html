@@ -1,5 +1,5 @@
 <!-- This is the template for the app component -->
-
+<div class="logo"><span class="textlogo"><b>Like Pierre!</b></span></div>
 <div class = "main-container"> 
     <app-my-image class = "app-my-image"></app-my-image>
 <app-my-button class = "app-my-button"></app-my-button>
@@ -7,8 +7,8 @@
 
 <div class= "message-container">
         <ul>
-                <li *ngFor="let hero of messageArray">
-                       <span class="message-list"> {{ hero.timeStamp }} {{ hero.messageText }}</span>
+                <li class="bullet" *ngFor="let hero of messageArray">
+                    <span class= "timestamp"> <b>{{ hero.timeStamp }} </b></span> <span class="actualmessage">  {{ hero.messageText }}</span>
                 </li>
               </ul>
 </div>

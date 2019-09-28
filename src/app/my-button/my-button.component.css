@@ -6,8 +6,8 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    
+    font-size: 19px;
+    font-family:  'Nothing You Could Do', cursive;
 
 }
 
@@ -19,19 +19,19 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    
+    font-size: 19px;
+    font-family:  'Nothing You Could Do', cursive;
 }
 
 .liketext{
-    padding: 10px;
+    padding: 8px;
     font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lustria', serif;
 }
 
 .numberoflikes{
-    padding: 10px;
+    padding: 5px;
     color: #4CAF50;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lustria', serif;
     font-size: 15px;
 }
