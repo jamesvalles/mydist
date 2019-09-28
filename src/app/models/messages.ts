@@ -1,6 +1,7 @@
 import { Message } from './message';
+import { IMessages} from '../models/imessages'
 
-export class Messages {
+export class Messages implements IMessages{
      messageArray: Message[] = [];
      constructor(){
      }
@@ -10,7 +11,7 @@ export class Messages {
         this.messageArray.push(incomingMessage);
      }
 
-     getMessageArray(){
+     getMessageArray() : Message[]{
          return this.messageArray
      }
 }
