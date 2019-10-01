@@ -28,6 +28,13 @@
     font-size: 20px;
 }
 
+.user{
+    color: rgb(38, 139, 92);
+    padding: 10px;
+    font-family:  'Nothing You Could Do', cursive;
+    font-size: 20px;
+}
+
 .actualmessage{
     font-family:  'Nothing You Could Do', cursive;
     font-size:  26px;
